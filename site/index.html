@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEbdev</title>
+    <title>Restaurant site</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css"> 
 </head>
+
 <body>
-    <h1>Hello World !! Great Course</h1>
+    <header>
+        <!-- <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html">
+                        <div id="logo" alt="logo image"></div>
+                    </a>
+
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <h1>ABSOLUTE BARBECQUES </h1>
+                        </a>
+                    </div>
+            
+                </div>
+            </div>
+        </nav> -->
+
+        <nav id="header-nav" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+               
+              <a class="navbar-brand" href="index.html">
+                <img src="https://www.absolutebarbecues.com/images/logo.png" height="80px">
+                ABSOLUTE BARBECUES
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                
+                    <ul id="navbar-items-tog" class="navbar-nav me-auto mb-2 mb-lg-0 align-middle">
+                  <li class="nav-item" id="nav-items-each">
+                    <a class="nav-link active" aria-current="page" href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+                          </svg> <br> Home
+                    </a>
+                  </li>
+                  <li class="nav-item" id="nav-items-each">
+                    <a class="nav-link active" href="Menu.html">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="currentColor" class="bi bi-book-fill" viewBox="0 0 16 16">
+                            <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                          </svg><br> Menu
+                    </a>
+                  </li>&emsp;
+                  <li class="nav-item" id="nav-items-each">
+                    <a class="nav-link active" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                          </svg> <br>Info
+                    </a>
+                  </li>&emsp;
+                  <li class="nav-item" id="nav-items-each">
+                    <a class="nav-link active" href="tel:410-602-500">
+                        <div>410-&nbsp;602-&nbsp;5008 </div>
+                    </a> 
+                    <div> &emsp; We&nbsp;Deliver </div>
+                   </li>
+                    </ul>
+               
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-6" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+              </div>
+            </div>
+          </nav>
+    </header>    
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
 </body>
 </html>
