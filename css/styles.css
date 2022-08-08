@@ -67,12 +67,11 @@ body {
 #bg-img{
   height: 50vw;
   margin-bottom: 50px;
-  opacity: .7;
 }
 .carousel-caption {
   padding: 30% 61% 70% 39%;
   background-color: black; 
-  opacity: .7; 
+  opacity: .45; 
 }
 .carousel-caption h3{
   text-align: left;
@@ -198,7 +197,7 @@ body {
   color: beige;
   margin: 20px auto;
   padding: 10px;
-  font-size: 40px;
+  font-size: 35px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
