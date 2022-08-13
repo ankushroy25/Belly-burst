@@ -4,7 +4,7 @@
   margin: 0px;
 }
 body {
-  background-color: rgb(130, 49, 8);
+  background-color: rgb(106, 37, 8);
   font-size: 16px;
 }
 
@@ -13,15 +13,20 @@ body {
   height: 95px;
 }
 #header-nav {
-  background-color: rgb(243, 194, 155);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(254, 155, 90),
+    rgb(250, 207, 99),
+    rgb(255, 211, 161)
+  );
 }
 .navbar-brand h1 {
   margin-top: 0.5em;
   margin-left: 0.2em;
   vertical-align: middle;
-  text-shadow: 2px 3px 5px gray;
+  text-shadow: 0.5px 2px 2px rgb(150, 230, 176);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: black;
+  color: rgb(0, 0, 0);
   float: right;
 }
 
@@ -33,52 +38,76 @@ body {
   margin: auto;
 }
 #nav-items-each a:hover {
-  color: rgb(183, 0, 0);
+  color: rgb(13, 74, 6);
 }
 .navbar-items-tog {
   margin: auto;
   font-weight: 400;
   font-size: 20px;
 }
-/* #search-bar {
-  width: 60%;
-} */
 
-.btn{/*call button */
+.bn632-hover {
+  width: 90%;
+  font-size: 16px;
   font-weight: 600;
-  color: #000000;
-  background-color: rgb(255, 148, 148);
-  border: 2px solid black;
-  margin: 10px;
-}
-.btn:hover{
-  background-color: #000000;
-  color: white;
-  /* transform: scale(1.05); */
-  border: 2px solid white;
-    box-shadow: 0 0 5px 1px white;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  /* moz-transition: all 0.4s ease-in-out; */
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-#main-content{
+.bn632-hover:hover {
+  background-position: 100% 0;
+  /* moz-transition: all 0.4s ease-in-out; */
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn21 {
+  background-image: linear-gradient(
+    to right,
+    #fc6076,
+    #ff9a44,
+    #ef9d43,
+    #e75516
+  );
+  box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+
+#main-content {
+  margin: 0%;
   padding: 0%;
-  margin:0%;
 }
 
-#bg-img{
-  height: 50vw;
-  margin-bottom: 50px;
+#bg-img {
+  height: 45vw;
+  margin-bottom: 5px;
+  border-top: 1px solid rgb(94, 45, 11);
+}
+.mask1 {
+  -webkit-mask-image: linear-gradient(white, transparent);
+  mask-image: linear-gradient(white, transparent);
 }
 .jumbo-caption {
-  padding: 20%;
-  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 15%;
   text-align: center;
-  color: white;
+  color: rgb(255, 236, 212);
   font-size: 9vw;
-  font-weight:900;
-  /* mix-blend-mode:multiply; */
+  font-weight: 700;
 }
-
-
 
 #menu-tile,
 #special-tile,
@@ -128,6 +157,11 @@ body {
   font-size: 1.5em;
   width: 100%;
 }
+.app-btn {
+  margin: 20px;
+  width: 200px;
+  height: 70px;
+}
 
 @media (max-width: 592px) {
   .navbar-brand img {
@@ -146,9 +180,12 @@ body {
     height: 70px;
   }
 }
-@media (max-width:768px) {
-  #abt-img{
+@media (max-width: 768px) {
+  #abt-img {
     width: 100%;
+  }
+  .jumbo-caption {
+    padding-top: 5%;
   }
 }
 @media (min-width: 989px) and (max-width: 1194px) {
@@ -192,14 +229,21 @@ body {
   }
 }
 
-#highlights{
+#highlights {
   color: beige;
   margin: 20px auto;
   padding: 10px;
   font-size: 35px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
+#typing {
+  color: #ffff;
+  font-style: italic;
+  margin: 20px auto;
+  font-size: 200%;
+  border-right: #fff;
+  overflow: hidden;
+}
 .panel-footer {
   font-size: 20px;
   color: white;
@@ -213,11 +257,9 @@ body {
   margin-left: 10px;
   font-size: 1.5em;
 }
-.contact{
+.contact {
   background-color: #000000;
 }
-
-
 
 /* menu page styling */
 .container h2 {
@@ -328,22 +370,21 @@ body {
 }
 
 /* info page */
-#aboutline{
+#aboutline {
   border: 1px solid white;
-  margin: 20px auto; 
+  margin: 20px auto;
 }
-#about{
-  font-size:larger;
+#about {
+  font-size: larger;
   color: white;
   margin: 20px;
 }
-#abt-img{
+#abt-img {
   background-color: aliceblue;
   padding: 10px;
   box-shadow: 0 0 4px 2.5px black;
   /* margin-top: -1.5px;
   margin-right: -1.5px; */
   margin: 0%;
-  float:right;
+  float: right;
 }
-
