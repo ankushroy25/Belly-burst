@@ -13,7 +13,7 @@
 //loading of main content on homepage
 (function (global) {
   var bb = {};
-  var homepage = "snippets/homepage.html";
+  var homepage = "homepage.html";
   // var menupage = "snippets/menupage.html";
 
   var insertHtml = function (selector, html) {
