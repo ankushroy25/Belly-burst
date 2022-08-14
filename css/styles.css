@@ -9,8 +9,8 @@ body {
 }
 
 .navbar-brand img {
-  margin: auto 5px;
-  height: 95px;
+  margin: 0 5px;
+  height: 90px;
 }
 #header-nav {
   background-image: linear-gradient(
@@ -24,7 +24,7 @@ body {
   margin-top: 0.5em;
   margin-left: 0.2em;
   vertical-align: middle;
-  text-shadow: 0.5px 2px 2px rgb(150, 230, 176);
+  text-shadow: 0.5px 1.5px 2px rgb(230, 13, 13);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(0, 0, 0);
   float: right;
@@ -52,7 +52,7 @@ body {
   font-weight: 600;
   color: #fff;
   cursor: pointer;
-  margin: 20px;
+  margin: 10px;
   height: 55px;
   text-align: center;
   border: none;
@@ -165,7 +165,7 @@ body {
 
 @media (max-width: 592px) {
   .navbar-brand img {
-    height: 60px;
+    height: 70px;
   }
   .navbar-brand h1 {
     font-size: 7vw;
@@ -173,11 +173,14 @@ body {
   .panel-footer {
     text-align: center;
   }
+  #item-icons{
+    width: 200px;
+  }
 }
 
 @media (min-width: 592px) and (max-width: 989px) {
   .navbar-brand img {
-    height: 70px;
+    height: 75px;
   }
 }
 @media (max-width: 768px) {
@@ -190,7 +193,7 @@ body {
 }
 @media (min-width: 989px) and (max-width: 1194px) {
   .navbar-brand img {
-    height: 70px;
+    height: 75px;
   }
   /* .navbar-items-tog {
     margin-right: 0px;
