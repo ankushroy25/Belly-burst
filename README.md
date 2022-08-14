@@ -1,17 +1,24 @@
-Belly Burst is a responsive restaurant website made with HTML, CSS, Bootstrap, javascript and ajax codes.
+<h4>Belly Burst</h4> is a responsive restaurant website made with HTML, CSS, Bootstrap and Javascript.
 
-Disclaimer
+<h2>Disclaimer </h2>
 This website is not recommended for official use.
 
-Description
+<h2>Description </h2>
 This only the frontend part of a dummy website created for a restaurant. You can check out the landing page of the restaurant,different menu and special categories, info about the place and also make a call. 
 
-Author
+<h2>Author</h2>
 Ankush Roy - https://github.com/ankushroy25
 
-Acknowledgements
-Coursera - HTML, CSS, and Javascript for Web Developers by Yaakov Chaikin
-Youtube - Traversy Media
-Documentations - https://www.w3schools.com/
+<h2>Previews</h2>
+<img src="images/ss1.png" alt="ss1">
+<img src="images/ss2.png" alt="ss2">
+<img src="images/ss3.png" alt="ss3">
+
+<h2>Acknowledgement </h2>
+<ul>
+    <li>Coursera - HTML, CSS, and Javascript for Web Developers by Yaakov Chaikin<li>
+    <li>Youtube - Traversy Media</li>
+    <li>Documentations - https://www.w3schools.com/</li>
+</ul>
 
 
