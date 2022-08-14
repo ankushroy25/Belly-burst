@@ -1,6 +1,10 @@
 <h4>Belly Burst</h4> is a responsive restaurant website made with HTML, CSS, Bootstrap and Javascript.
 
+<<<<<<< HEAD
 <h2>Disclaimer </h2>
+=======
+<h2>Disclaimer</h2>
+>>>>>>> 354ec93b6254470d6902e532d8a0cb494c803de8
 This website is not recommended for official use.
 
 <h2>Description </h2>
